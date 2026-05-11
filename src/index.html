@@ -15,8 +15,43 @@
       rel="stylesheet"
       href="./style.css"
     />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Moyo header</h1>
+    <header class="moyo-header">
+      <div class="moyo-header__logo">
+        <img
+          src="images/logo.png"
+          alt="Moyo_logo"
+        />
+      </div>
+      <nav class="moyo-header__nav">
+        <a
+          href="#"
+          class="is-active"
+        >
+          Apple
+        </a>
+        <a href="#">Samsung</a>
+        <a href="#">smartphone</a>
+        <a href="#" data-qa="hover">laptop and computers</a>
+        <a href="#">gadgets</a>
+        <a href="#">tablets</a>
+        <a href="#">photo</a>
+        <a href="#">video</a>
+      </nav>
+    </header>
   </body>
 </html>
