@@ -30,6 +30,13 @@ html {
   text-transform: uppercase;
 }
 
+.moyo-header__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
 .nav__link {
   text-decoration: none;
   color: black;
