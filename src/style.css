@@ -32,13 +32,11 @@ html {
   justify-content: space-between;
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 li {
-  display: flex;
-  align-items: center;
   margin: 0 20px;
-  height: 60px;
 }
 
 li:first-child {
@@ -53,8 +51,10 @@ li:last-child {
   text-decoration: none;
   color: black;
   font-weight: 500;
-
+  height: 60px;
   font-size: 12px;
+  display: flex;
+  align-items: center;
 }
 
 .nav__link:hover {
@@ -71,8 +71,8 @@ li:last-child {
   content: '';
   background-color: #00acdc;
   height: 4px;
-  width: 37px;
+  width: 100%;
   border-radius: 8px;
   left: 0;
-  bottom: -15px;
+  bottom: 0;
 }
